@@ -12,9 +12,9 @@ req=sess.get(url,headers=head)
 lt_execution_id=re.findall('name="lt" value="(.*?)".*\sname="execution" value="(.*?)"', req.text, re.S)
  
 payload={
-    "rsa":"1910294JoneVince11"+lt_execution_id[0][0],
-    "ul":"7",
-    "pl":"11",
+    "rsa":"学号密码"+lt_execution_id[0][0],
+    "ul":"学号长度",
+    "pl":"密码长度",
     "lt":lt_execution_id[0][0],
     "execution":lt_execution_id[0][1],
     "_eventId":"submit"
