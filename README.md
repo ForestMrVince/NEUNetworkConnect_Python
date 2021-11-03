@@ -11,9 +11,9 @@ payload={
 
     "rsa":"2188888goodjob8888"+lt_execution_id[0][0],
     
-    "ul":"7",
+    "ul":"7", #学号长度
     
-    "pl":"11",
+    "pl":"11", #密码长度
     
     "lt":lt_execution_id[0][0],
     
