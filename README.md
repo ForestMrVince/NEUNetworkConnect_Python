@@ -49,10 +49,12 @@ chrome登陆分析：
 [![IAVN3F.png](https://z3.ax1x.com/2021/11/03/IAVN3F.png)](https://imgtu.com/i/IAVN3F)
 
 ***
-*另附：ubuntu自启动教程*
-例如：
+*另附：ubuntu自启动教程，例如：*
+
 python路径：`/home/root/miniconda3/bin/python`
+
 自动登陆脚本路径：`/home/root/NEUNetworkConnect.py`
+
 在/etc/rc.local脚本中添加
 
 ```
